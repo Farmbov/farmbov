@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933981857715",
+    "project_id": "farmbov-742e9",
+    "storage_bucket": "farmbov-742e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933981857715:android:a9eef91959d0764f194dc6",
+        "android_client_info": {
+          "package_name": "br.ikhon.farmbov"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZVzH3h9DJQNlpHa64Xc3UjJHULh2K_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

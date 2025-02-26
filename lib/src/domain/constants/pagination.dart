@@ -1,0 +1,1 @@
+const itemsTake = 10;

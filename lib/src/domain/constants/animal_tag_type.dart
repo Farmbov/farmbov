@@ -1,0 +1,1 @@
+enum AnimalTagType { common, rfid }

@@ -1,0 +1,639 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "lot",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sex",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "birth_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_down",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "down_date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "down_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "animals_handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "batches",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "expiration_date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "available_quantity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "farms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "owner_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "handlings",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "handling_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "handling_date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "vaccine_lot",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lot_id",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "vaccines",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "active",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updated_at",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,2 @@
+data_nascimento,data_entrada,data_pesagem,numero_brinco,numero_brinco_mae,numero_brinco_pai,observacao,peso,sexo
+5/1/2022,6/2/2022,6/3/2022,ANIMAL_TESTE,MM1002,PM1002,INCLUSAO VIA ARQUIVO,450,Macho

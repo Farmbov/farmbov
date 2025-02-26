@@ -1,0 +1,89 @@
+{
+  "functions": [
+    {
+      "source": "farmbov_functions",
+      "codebase": "functions",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": [
+    {
+      "target": "dev",
+      "public": "build/web",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "prod",
+      "public": "build/web",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "prod": {
+          "projectId": "farmbov-742e9",
+          "appId": "1:933981857715:android:a9eef91959d0764f194dc6",
+          "fileOutput": "android/app/src/prod/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/src/app/config/firebase_options_dev.dart": {
+          "projectId": "farmbov-af05a",
+          "configurations": {
+            "android": "1:552219503152:android:c531d972e3fe64a4095bf5",
+            "ios": "1:552219503152:ios:3f5c97d733468c22095bf5",
+            "web": "1:552219503152:web:987bb10374d38040095bf5"
+          }
+        },
+        "lib/src/app/config/firebase_options.dart": {
+          "projectId": "farmbov-742e9",
+          "configurations": {
+            "android": "1:933981857715:android:a9eef91959d0764f194dc6",
+            "ios": "1:933981857715:ios:e71a541415bc4580194dc6",
+            "web": "1:933981857715:web:3ccdbf2a36760611194dc6"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+name: farmbov
+description: FarmBov permite aos produtores rurais gerenciar suas fazendas e animais de forma simples e intuitiva.
+
+publish_to: "none"
+
+version: 1.0.7+11
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # ardrive_io:
+  #   git: https://github.com/ar-io/ardrive_io.git
+  adaptive_theme: ^3.6.0
+  auto_size_text: ^3.0.0
+  built_collection: ^5.1.1
+  built_value: ^8.6.1
+  brasil_fields: ^1.13.1
+  cached_network_image: ^3.2.3
+  cloud_firestore: ^5.2.1
+  collection: ^1.17.2
+  cpf_cnpj_validator: ^2.0.0
+  csv: ^6.0.0
+  data_table_2: ^2.5.8
+  diacritic: ^0.1.4
+  #dogs_firestore: ^0.2.0+2
+  dropdown_button2: ^2.3.9
+  dropdown_search: ^5.0.6
+  easy_debounce: ^2.0.3
+  expandable_page_view: ^1.0.17
+  encrypt: ^5.0.1
+  extended_masked_text: ^2.3.1
+  file_picker: ^5.3.3
+  file_saver: ^0.2.8
+  #file_system_access_api: ^1.1.0
+  firebase_analytics: ^11.2.1
+  firebase_auth: ^5.1.4
+  #firebase_app_check: ^0.2.1+19
+  firebase_core: ^3.3.0
+  firebase_core_platform_interface: ^5.2.0
+  firebase_crashlytics: ^4.0.4
+  firebase_messaging: ^15.0.4
+  firebase_remote_config: ^5.0.4
+  firebase_storage: ^12.1.3
+  flash: ^3.0.5+1
+  fl_chart: ^0.69.0
+  flutter_file_dialog: ^3.0.2
+  flutter_flavor: ^3.1.1
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_markdown: ^0.7.3+1
+  flutter_mobx: ^2.0.6+5
+  flutter_modular: ^ 6.0.4+1
+  flutter_native_splash: ^2.3.1
+  # TODO: no ios, falta adicionar capability de nfc
+  # flutter_nfc_kit: ^3.3.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.7
+  flutter_triple: ^2.0.0
+  flutter_typeahead: ^5.2.0
+  font_awesome_flutter: ^10.4.0
+  form_field_validator: ^1.1.0
+  freezed_annotation: ^2.4.1
+  geolocator: ^11.0.0
+  google_fonts: ^5.0.0
+  go_router: ^14.2.8
+  image_cropper: ^5.0.0
+  # TODO: override to ^1.0.2
+  image_picker: ^0.8.5+3
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  logger: ^2.2.0
+  mask_text_input_formatter: ^2.7.0
+  mime_type: ^1.0.0
+  mobx: ^2.2.0
+  mobx_triple: ^2.0.0
+  #ndef: ^0.3.3
+  onesignal_flutter: ^3.5.2
+  open_file: ^3.3.2
+  package_info_plus: ^4.0.2
+  page_transition: ^2.0.9
+  path_provider: ^2.1.0
+  percent_indicator: ^4.2.3
+  pdf: ^3.10.4
+  provider: ^6.0.5
+  responsive_framework: ^1.4.0
+  responsive_sizer: ^3.1.1
+  rxdart: ^0.27.7
+  screenshot: ^2.1.0
+  skeletonizer: ^1.1.1
+  shared_preferences: ^2.2.0
+  shorebird_code_push: ^1.1.3
+  stream_transform: ^2.1.0
+  url_launcher: ^6.2.1
+  url_strategy: ^0.2.0
+  universal_html: ^2.2.3
+  uuid: ^4.3.3
+  wolt_modal_sheet: ^0.5.0
+  visibility_detector: ^0.4.0+2
+  flutter_masked_text2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.6
+  built_value_generator: ^8.6.1
+  flutter_flavorizr: ^2.2.3
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  freezed: ^2.4.1
+  json_serializable: ^6.7.1
+  mobx_codegen: ^2.3.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logos/logo_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  web:
+    generate: true
+    image_path: "assets/images/logos/logo_icon_white.png"
+    background_color: "#064B11"
+    theme_color: "#064B11"
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "app"
+  flavors:
+    prod:
+      app:
+        name: "Farmbov"
+      android:
+        applicationId: "br.ikhon.farmbov"
+        customConfig:
+          versionCode: flutterVersionCode.toInteger()
+          versionName: flutterVersionName
+      # ios:
+      #   bundleId: "br.ikhon.farmbov"
+      #   firebase:
+      #     config: config/prod/firebase_app_id_file.json
+    dev:
+      app:
+        name: "Farmbov Testes"
+      android:
+        applicationId: "br.ikhon.farmbov.dev"
+        customConfig:
+          versionCode: flutterVersionCode.toInteger()
+          versionName: flutterVersionName
+      # ios:
+      #   bundleId: "br.ikhon.farmbov.dev"
+      #   firebase:
+      #     config: config/dev/firebase_app_id_file.json
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/logos/
+    - assets/images/icons/
+    - assets/images/illustrations/
+    - assets/templates/
+    - shorebird.yaml
+
+  fonts:
+    - family: FarmBovIcons
+      fonts:
+        - asset: assets/fonts/FarmBovIcons.ttf

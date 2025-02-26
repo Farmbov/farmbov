@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "animal",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "down",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tag_number",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}

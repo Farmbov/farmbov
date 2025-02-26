@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "prod": "farmbov-742e9",
+    "dev": "farmbov-af05a",
+    "default": "farmbov-af05a"
+  },
+  "targets": {
+    "farmbov-742e9": {
+      "hosting": {
+        "prod": [
+          "farmbov-742e9"
+        ],
+        "dev": [
+          "farmbov-742e9"
+        ]
+      }
+    },
+    "farmbov-af05a": {
+      "hosting": {
+        "dev": [
+          "farmbov-af05a"
+        ],
+        "prod": [
+          "farmbov-af05a"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

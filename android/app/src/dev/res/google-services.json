@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "552219503152",
+    "project_id": "farmbov-af05a",
+    "storage_bucket": "farmbov-af05a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552219503152:android:c531d972e3fe64a4095bf5",
+        "android_client_info": {
+          "package_name": "br.ikhon.farmbov.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552219503152-muuhadkuc1b0l3rps7ihhqn8h493u7nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLyPR5gfRjmDjsLuqzby393GG48SD4pDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552219503152-muuhadkuc1b0l3rps7ihhqn8h493u7nt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "552219503152-urc6da5dh1ncfv68jadi51dee4dlveab.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.farmbov"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

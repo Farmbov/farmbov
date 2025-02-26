@@ -1,0 +1,109 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Test App",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Run Test App (profile mode)",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Run Test App (release mode)",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Run Prod App",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    {
+      "name": "Run Prod App (profile mode)",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    {
+      "name": "Run Prod App (release mode)",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    {
+      "name": "Run WEB Prod App",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+    },
+    {
+      "name": "Run WEB Prod App (profile mode)",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+    },
+    {
+      "name": "Run WEB Prod App (release mode)",
+      "program": "${workspaceRoot}/lib/src/app/prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+    },
+    {
+      "name": "Run WEB Test App",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+    },
+    {
+      "name": "Run WEB Test App (profile mode)",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+    },
+    {
+      "name": "Run WEB Test App (release mode)",
+      "program": "${workspaceRoot}/lib/src/app/dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+    }
+  ]
+}

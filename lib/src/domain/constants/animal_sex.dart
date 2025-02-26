@@ -1,0 +1,1 @@
+const animalSexList = ['Macho', 'Fêmea'];
